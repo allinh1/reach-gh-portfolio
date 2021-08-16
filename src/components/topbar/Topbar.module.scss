@@ -8,6 +8,7 @@
     position: fixed;
     top: 0;
     z-index: 2;
+    transition: all 2s ease;
 
     .wrapper{
         padding: 10px 30px;
@@ -68,7 +69,7 @@
 
     &.active {
         background-color: $mainColor;
-        color: black;
+        color: white;
 
         .hamburger {
             span{

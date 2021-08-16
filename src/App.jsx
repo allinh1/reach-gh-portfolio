@@ -1,4 +1,4 @@
-import { useState } from 'react';
+// import { useState } from 'react';
 
 import Topbar from "./components/topbar/Topbar"
 import Portfolio from "./components/portfolio/Portfolio"
@@ -11,12 +11,13 @@ import React from "react"
 
 function App() {
 
-  const [menuOpen, setMenuOpen] = useState(false);
+  // const [menuOpen, setMenuOpen] = useState(false);
 
   return (
 
       <div className={styles.app}>
-        <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+        <Topbar /> 
+        {/* menuOpen={menuOpen} setMenuOpen={setMenuOpen} */}
         <div className={styles.sections}>
           <Intro />
           <Portfolio />
