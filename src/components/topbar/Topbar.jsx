@@ -1,12 +1,10 @@
-import { useState } from "react";
+// import { useState } from "react";
 import styles from "./Topbar.module.scss";
 import GitHubIcon from '@material-ui/icons/GitHub';
 import MailIcon from '@material-ui/icons/Mail';
 // import styles from "./Topbar.module.css";
 
-const Topbar = () => {
-
-    const [menuOpen, setMenuOpen] = useState(false);
+const Topbar = ({menuOpen, setMenuOpen}) => {
 
     const classes = menuOpen
         ? [styles.topbar, styles.active]
@@ -14,12 +12,6 @@ const Topbar = () => {
 
     return (
         <div className={classes.join(" ")}>
-
-
-        {/* <div className={this.state.className && this.props.content.divClassName}></div> */}
-        {/* <div className={styles.topbar + (menuOpen && styles.active)}> */}
-        {/* <div className={`${styles.topbar} + (${menuOpen} && ${styles.active})`}> */}
-        {/* <div className={styles.topbar + '' (menuOpen && styles.active)}> */}
 
             <div className={styles.wrapper}>
                 <div className={styles.left}>
@@ -36,6 +28,7 @@ const Topbar = () => {
                 </div>
 
                 <div className={styles.right}>
+                    {/* Toggle */}
                     <div className={styles.hamburger} onClick={() => setMenuOpen(!menuOpen)}>
                         <span className={styles.line1}></span>
                         <span className={styles.line2}></span>
