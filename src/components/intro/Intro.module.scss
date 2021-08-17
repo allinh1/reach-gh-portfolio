@@ -7,14 +7,14 @@
         overflow: hidden;
         
         .imgContainer{
-            width: 400px;
-            height: 500px;
-            background-color: blue;
+            width: 700px;
+            height: 700px;
             display: flex;
+            justify-content: center;
             align-items: center;
-    
+
             .img{ 
-                width: 50;
+                width: 90%;
                 
             }
         }
@@ -22,5 +22,44 @@
 
     .right{
         flex: 0.5;
+
+        .wrapper {
+            width: 100%;
+            height: 100%;
+            padding-left: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+            
+            h1 {
+                font-size: 55px;
+                margin: 10px;
+            }
+
+            h2 {
+                font-size: 30px;
+            }
+
+            h3 {
+                font-size: 20px;
+
+                span{
+                    font-size: inherit;
+                    color:darkgreen;
+                }
+            }
+        }
+
+        a{
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+
+            img{
+                width: 30px;
+            }
+        }
+
     }
 }

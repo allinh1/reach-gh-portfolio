@@ -7,22 +7,25 @@ const Menu = ({menuOpen , setMenuOpen}) => {
         ? [styles.menu, styles.active]
         : [styles.menu]
 
+
+    const handleClick = ()=>setMenuOpen(false);
+
     return (
         <div className={classes.join(" ")}>
             <ul>
-                <li onClick={()=>setMenuOpen(false)} >
+                <li onClick={handleClick} >
                     <a href="#intro">Home</a>
                 </li>
-                <li onClick={()=>setMenuOpen(false)}>
+                <li onClick={handleClick}>
                     <a href="#portfolio">Porfolio</a>
                 </li>
-                <li onClick={()=>setMenuOpen(false)}>
+                <li onClick={handleClick}>
                     <a href="#projects">Projects</a>
                 </li>
-                <li onClick={()=>setMenuOpen(false)}>
+                <li onClick={handleClick}>
                     <a href="#skills">Skills</a>
                 </li>
-                <li onClick={()=>setMenuOpen(false)}>
+                <li onClick={handleClick}>
                     <a href="#contact">Contact</a>
                 </li>
             </ul>
