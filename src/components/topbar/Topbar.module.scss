@@ -16,6 +16,7 @@
         align-items: center;
         justify-content: space-between;
         
+    
         .left {
             display: flex;
             align-items: center;
@@ -31,7 +32,11 @@
             .itemContainer {
               display: flex;
               align-items: center;
-              margin: 20px;  
+              margin: 20px;
+              
+              @include mobile{
+                display: none;
+              }
 
               .icon {
                 font-size: 18px;

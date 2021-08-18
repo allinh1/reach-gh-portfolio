@@ -1,8 +1,10 @@
+// Typing text
+
 import styles from "./Intro.module.scss";
-import LocalShippingIcon from '@material-ui/icons/LocalShipping';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import { init } from 'ityped'
 import { useEffect, useRef } from "react";
+
 
 const Intro = () => {
 
@@ -17,11 +19,13 @@ const Intro = () => {
     }, [])
 
     return (
+
+
         <div className={styles.intro} id="intro">
+
             <div className={styles.left}>                
                 <div className={styles.imgContainer}>
-                    <img src="" alt="" />
-                    <LocalShippingIcon/>
+                    <img src="https://image.freepik.com/free-photo/flat-lay-photo-office-desk-with-laptop-copy-space-background_1150-45598.jpg" alt=""></img>
                 </div>
             </div>
 

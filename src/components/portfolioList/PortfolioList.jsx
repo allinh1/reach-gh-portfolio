@@ -1,3 +1,5 @@
+// creating components and passing props
+
 import React from 'react';
 import styles from './portfolioList.module.scss';
 

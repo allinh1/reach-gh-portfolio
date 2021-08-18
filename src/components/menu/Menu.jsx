@@ -1,3 +1,5 @@
+// Passing props
+
 import styles from "./Menu.module.scss"
 import React from 'react'
 

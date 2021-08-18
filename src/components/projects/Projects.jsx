@@ -1,3 +1,5 @@
+// usestate, slider, materialui, onclicks
+
 import { useState } from "react";
 import styles from "./Projects.module.scss";
 import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
@@ -45,7 +47,7 @@ const Projects = () => {
     return (
 
 
-        <div className={styles.projects} id="projects">
+        <div className={styles.projects} id="projects">Scrolling...
         <div
           className={styles.slider}
           style={{ transform: `translateX(${-currentSlide * 100}vw)` }}
