@@ -2,7 +2,7 @@
 import styles from "./Topbar.module.scss";
 import GitHubIcon from '@material-ui/icons/GitHub';
 import MailIcon from '@material-ui/icons/Mail';
-// import styles from "./Topbar.module.css";
+
 
 const Topbar = ({menuOpen, setMenuOpen}) => {
 
