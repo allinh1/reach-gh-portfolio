@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/reach-gh-portfolio/static/css/main.b6e11620.chunk.css",
+    "main.js": "/reach-gh-portfolio/static/js/main.3b95cbca.chunk.js",
+    "main.js.map": "/reach-gh-portfolio/static/js/main.3b95cbca.chunk.js.map",
+    "runtime-main.js": "/reach-gh-portfolio/static/js/runtime-main.50c587d7.js",
+    "runtime-main.js.map": "/reach-gh-portfolio/static/js/runtime-main.50c587d7.js.map",
+    "static/js/2.6a0ee7c7.chunk.js": "/reach-gh-portfolio/static/js/2.6a0ee7c7.chunk.js",
+    "static/js/2.6a0ee7c7.chunk.js.map": "/reach-gh-portfolio/static/js/2.6a0ee7c7.chunk.js.map",
+    "static/js/3.7bc531e9.chunk.js": "/reach-gh-portfolio/static/js/3.7bc531e9.chunk.js",
+    "static/js/3.7bc531e9.chunk.js.map": "/reach-gh-portfolio/static/js/3.7bc531e9.chunk.js.map",
+    "index.html": "/reach-gh-portfolio/index.html",
+    "static/css/main.b6e11620.chunk.css.map": "/reach-gh-portfolio/static/css/main.b6e11620.chunk.css.map",
+    "static/js/2.6a0ee7c7.chunk.js.LICENSE.txt": "/reach-gh-portfolio/static/js/2.6a0ee7c7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.50c587d7.js",
+    "static/js/2.6a0ee7c7.chunk.js",
+    "static/css/main.b6e11620.chunk.css",
+    "static/js/main.3b95cbca.chunk.js"
+  ]
+}
