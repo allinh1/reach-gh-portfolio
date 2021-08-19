@@ -25,7 +25,7 @@ const Intro = () => {
 
             <div className={styles.left}>                
                 <div className={styles.imgContainer}>
-                    <img src="https://image.freepik.com/free-photo/flat-lay-photo-office-desk-with-laptop-copy-space-background_1150-45598.jpg" alt=""></img>
+                    <img className={styles.background} src="https://image.freepik.com/free-photo/flat-lay-photo-office-desk-with-laptop-copy-space-background_1150-45598.jpg" alt=""></img>
                 </div>
             </div>
 

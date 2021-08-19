@@ -14,7 +14,7 @@ const Contact = () => {
     return (
         <div className={styles.contact} id="contact">
             <div className={styles.left}>
-            <img src="http://via.placeholder.com/300" alt="" />
+            <img className={styles.leftImg} src="" alt="" />
             </div>
             <div className={styles.right}>
                 <h2>Leave a message</h2>

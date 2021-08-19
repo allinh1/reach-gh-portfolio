@@ -16,10 +16,10 @@ const Topbar = ({menuOpen, setMenuOpen}) => {
             <div className={styles.wrapper}>
                 <div className={styles.left}>
 
-                    <a href="#intro" className={styles.logo}>LOGO</a>
+                    <a href="#intro" className={styles.logo}>AN.</a>
                     <div className={styles.itemContainer}>
                         <GitHubIcon className={styles.icon}/>
-                        <span>allinh1</span>
+                        <span><a href="https://github.com/allinh1">allinh1</a> </span>
                     </div>
                     <div className={styles.itemContainer}>
                         <MailIcon className={styles.icon} />

@@ -1,3 +1,5 @@
+@import "../../global.scss";
+
 .skills {
     background-color: white;
     display: flex;
@@ -24,14 +26,19 @@
 
 .tech {
     width: 700px;
-    height: 700px;
+    height: 600px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(3, 1fr);
     justify-items: center;
     align-items: center;
+    margin: auto;
+
     // border: 1px solid blue;
 
+    @include mobile {
+        grid-template-columns: repeat(3, 1fr);
+    }
 
     .circle {
 

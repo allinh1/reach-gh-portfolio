@@ -16,7 +16,7 @@ const Menu = ({menuOpen , setMenuOpen}) => {
         <div className={classes.join(" ")}>
             <ul>
                 <li onClick={handleClick} >
-                    <a href="#intro">Home</a>
+                    <a href="#intro">Top</a>
                 </li>
                 <li onClick={handleClick}>
                     <a href="#portfolio">Porfolio</a>
@@ -28,7 +28,7 @@ const Menu = ({menuOpen , setMenuOpen}) => {
                     <a href="#skills">Skills</a>
                 </li>
                 <li onClick={handleClick}>
-                    <a href="#contact">Contact</a>
+                    <a href="#contact">Get In Touch</a>
                 </li>
             </ul>
             
