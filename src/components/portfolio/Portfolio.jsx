@@ -61,7 +61,6 @@ const Portfolio = () => {
   }, [selected]);
 
   return (
-    <>
       <div className={styles.portfolio} id="portfolio">
         <h1>Portfolio</h1>
 
@@ -86,31 +85,9 @@ const Portfolio = () => {
             <h3>{item.title}</h3>
           </div>
         ))} 
-
-
-          {/* <div className={styles.item}>
-            <img src="https://via.placeholder.com/200x150" alt="" />
-            <h3>Project</h3>
-          </div>
-          <div className={styles.item}>
-            <img src="https://via.placeholder.com/200x150" alt="" />
-            <h3>Project</h3>
-          </div>
-          <div className={styles.item}>
-            <img src="https://via.placeholder.com/200x150" alt="" />
-            <h3>Project</h3>
-          </div>
-          <div className={styles.item}>
-            <img src="https://via.placeholder.com/200x150" alt="" />
-            <h3>Project</h3>
-          </div>
-          <div className={styles.item}>
-            <img src="https://via.placeholder.com/200x150" alt="" />
-            <h3>Project</h3>
-          </div> */}
+        
         </div>
       </div>
-    </>
   );
 };
 
