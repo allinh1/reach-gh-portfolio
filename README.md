@@ -15,4 +15,4 @@ Use of:
 - Mapping/Rendering data
 - EventHandlers
 
-Thanks to the coaches at nology and Lama Dev for providing easy to follow guides and code alongs.
+Thanks to the coaches at nology and Lama Dev (https://www.youtube.com/c/lamadev) for providing easy to follow guides and code alongs.
