@@ -14,3 +14,5 @@ Use of:
 - useState, useEffect Active/Toggle/Slider/Carousel
 - Mapping/Rendering data
 - EventHandlers
+
+Thanks to the coaches at nology and Lama Dev for making easy to follow guides.
