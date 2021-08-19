@@ -2,7 +2,7 @@
 
 
 One of many Portfolio muckups created throughout the _nology course.
-Combination of React and Sass.
+Using React libaray and combination of JS and Sass.
 
 Use of:
 - Animated Typing Package - iTyped - https://www.npmjs.com/package/ityped
