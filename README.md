@@ -3,6 +3,7 @@
 
 One of many Portfolio muckups created throughout the _nology course.
 Combination of Html, css, sass, React.
+
 Use of:
 - Animated Typing Package - iTyped - https://www.npmjs.com/package/ityped
 - Material UI Framework - https://www.npmjs.com/package/ityped
