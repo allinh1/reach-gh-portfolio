@@ -1,5 +1,6 @@
 # Web Dev Portfolio
 
+Viewable @ https://allinh1.github.io/reach-gh-portfolio/
 
 One of many Portfolio muckups created throughout the _nology course.
 Using React libaray and combination of JS and Sass.
