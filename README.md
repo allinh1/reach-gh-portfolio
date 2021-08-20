@@ -13,7 +13,7 @@ Use of:
 - Media queries for Mobile Devices and Global Varibles (to be completed)
 - Snapscroll
 - Hamburger Menu/Sidebar
-- useState, useEffect Active/Toggle/Slider/Carousel
+- React Hooks - useState, useEffect Active/Toggle/Slider/Carousel
 - Mapping/Rendering data
 - EventHandlers
 - Links to gh-pages (TBC)
