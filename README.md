@@ -16,5 +16,7 @@ Use of:
 - useState, useEffect Active/Toggle/Slider/Carousel
 - Mapping/Rendering data
 - EventHandlers
+- Links to gh-pages (TBC)
+- Project Showcase (TBC)
 
 Thanks to the coaches at nology and Lama Dev (https://www.youtube.com/c/lamadev) for providing easy to follow guides and code alongs.
