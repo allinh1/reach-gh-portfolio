@@ -10,7 +10,7 @@ Use of:
 - Material UI Framework - https://www.npmjs.com/package/ityped
 - Images/Background - https://unsplash.com/
 - Font Awesome Icons- https://fontawesome.com/
-- Media queries for Mobile and Global Varibles (to be completed)
+- Media queries for Mobile Devices and Global Varibles (to be completed)
 - Snapscroll
 - Hamburger Menu/Sidebar
 - useState, useEffect Active/Toggle/Slider/Carousel
