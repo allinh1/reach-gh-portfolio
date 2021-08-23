@@ -7,12 +7,12 @@ export const featuredPortfolio = [
   {
     id: 2,
     title: "Calculator",
-    img: "https://cdn.dribbble.com/users/702789/screenshots/15054318/media/4ea5d492b7b07eebc9528ff960794879.png?compress=1&resize=1200x900",
+    img: "https://via.placeholder.com/200x150",
   },
   {
     id: 3,
     title: "E-commerce Project",
-    img: "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
+    img: "https://via.placeholder.com/200x150",
   },
   {
     id: 4,

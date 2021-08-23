@@ -5,10 +5,10 @@ import styles from "./Portfolio.module.scss";
 import PortfolioList from "../portfolioList/PortfolioList";
 import {
   featuredPortfolio,
-  webPortfolio,
-  mobilePortfolio,
-  designPortfolio,
-  contentPortfolio,
+  clientPortfolio,
+  calculatorPortfolio,
+  ecomPortfolio,
+  booksPortfolio,
 } from "../../data";
 
 const Portfolio = () => {
