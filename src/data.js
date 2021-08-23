@@ -31,7 +31,7 @@ export const featuredPortfolio = [
   },
 ];
 
-export const webPortfolio = [
+export const clientPortfolio = [
   {
     id: 1,
     title: "Minesweeper",
@@ -64,7 +64,7 @@ export const webPortfolio = [
   },
 ];
 
-export const mobilePortfolio = [
+export const calculatorPortfolio = [
   {
     id: 1,
     title: "Bomb",
@@ -97,68 +97,68 @@ export const mobilePortfolio = [
   },
 ];
 
-export const designPortfolio = [
+export const ecomPortfolio = [
   {
     id: 1,
-    title: "Design Social Media App",
+    title: "Screenshot",
     img: "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
   },
   {
     id: 2,
-    title: "Design Rampa UI Design",
+    title: "Screenshot",
     img: "https://images.unsplash.com/photo-1484100356142-db6ab6244067?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=962&q=80",
   },
   {
     id: 3,
-    title: "Design E-commerce Web Design",
+    title: "Screenshot",
     img: "https://via.placeholder.com/200x150",
   },
   {
     id: 4,
-    title: "Design Relax Mobile App",
+    title: "Screenshot",
     img: "https://via.placeholder.com/200x150",
   },
   {
     id: 5,
-    title: "Design Keser Web Design",
+    title: "Screenshot",
     img: "https://images.unsplash.com/photo-1473187983305-f615310e7daa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
   },
   {
     id: 6,
-    title: "Design Banking App",
+    title: "Screenshot",
     img: "https://via.placeholder.com/200x150",
   },
 ];
 
-export const contentPortfolio = [
+export const booksPortfolio = [
   {
     id: 1,
-    title: "Content Social Media App",
+    title: "Screenshot 1",
     img: "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
   },
   {
     id: 2,
-    title: "Content Rampa UI Design",
+    title: "Screenshot 2",
     img: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80",
   },
   {
     id: 3,
-    title: "Content E-commerce Web Design",
+    title: "Screenshot 3",
     img: "https://via.placeholder.com/200x150",
   },
   {
     id: 4,
-    title: "Content Relax Mobile App",
+    title: "Screenshot 4",
     img: "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
   },
   {
     id: 5,
-    title: "Content Keser Web Design",
+    title: "Screenshot 5",
     img: "https://images.unsplash.com/photo-1550399105-c4db5fb85c18?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80",
   },
   {
     id: 6,
-    title: "Content Banking App",
+    title: "Screenshot 6",
     img: "https://images.unsplash.com/photo-1499854413229-6d1c92ff39ef?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1102&q=80",
   },
 ];

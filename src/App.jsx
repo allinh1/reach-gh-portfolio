@@ -1,4 +1,5 @@
 import { useState } from "react";
+import React from "react";
 
 import Topbar from "./components/topbar/Topbar";
 import Portfolio from "./components/portfolio/Portfolio";
@@ -7,7 +8,6 @@ import Contact from "./components/contact/Contact";
 import Skills from "./components/skills/Skills";
 import Intro from "./components/intro/Intro";
 import styles from "./app.module.scss";
-import React from "react";
 import Menu from "./components/menu/Menu";
 
 function App() {
