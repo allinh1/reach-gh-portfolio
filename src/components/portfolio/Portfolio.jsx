@@ -44,16 +44,16 @@ const Portfolio = () => {
         setData(featuredPortfolio);
         break;
       case "client":
-        setData(webPortfolio);
+        setData(clientPortfolio);
         break;
       case "calculator":
-        setData(mobilePortfolio);
+        setData(calculatorPortfolio);
         break;
       case "ecom":
-        setData(designPortfolio);
+        setData(ecomPortfolio);
         break;
       case "books":
-        setData(contentPortfolio);
+        setData(booksPortfolio);
         break;
       default:
         setData(featuredPortfolio);
@@ -61,33 +61,29 @@ const Portfolio = () => {
   }, [selected]);
 
   return (
-      <div className={styles.portfolio} id="portfolio">
-        <h1>Portfolio</h1>
+    <div className={styles.portfolio} id="portfolio">
+      <h1>Portfolio</h1>
 
-        <ul>
-          {list2.map((item) => (
-            <PortfolioList
-              title={item.title}
-              active={selected === item.id}
-              setSelected={setSelected}
-              id={item.id}
-            />
-          ))}
-        </ul>
+      <ul>
+        {list2.map((item) => (
+          <PortfolioList
+            title={item.title}
+            active={selected === item.id}
+            setSelected={setSelected}
+            id={item.id}
+          />
+        ))}
+      </ul>
 
-        <div className={styles.container}>
-          {data.map((item) => (
+      <div className={styles.container}>
+        {data.map((item) => (
           <div className={styles.item}>
-            <img
-              src={item.img}
-              alt=""
-            />
+            <img src={item.img} alt="" />
             <h3>{item.title}</h3>
           </div>
-        ))} 
-        
-        </div>
+        ))}
       </div>
+    </div>
   );
 };
 
