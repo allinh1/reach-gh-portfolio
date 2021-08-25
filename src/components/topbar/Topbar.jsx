@@ -1,10 +1,38 @@
-// import { useState } from "react";
+import { useState, useEffect } from "react";
 import styles from "./Topbar.module.scss";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import MailIcon from "@material-ui/icons/Mail";
 
 const Topbar = ({ menuOpen, setMenuOpen }) => {
   const classes = menuOpen ? [styles.topbar, styles.active] : [styles.topbar];
+
+  const [copySuccessMessage, setCopySuccessMessage] = useState("");
+  const [instructions, setInstructions] = useState("");
+  const email = "test@test.com";
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setCopySuccessMessage("");
+    }, 5000);
+    return () => clearTimeout(timer);
+  }, [copySuccessMessage]);
+
+  function copyEmail() {
+    navigator.clipboard.writeText(email);
+    setCopySuccessMessage(`${email} Copied to Clipboard`);
+    setInstructions("");
+  }
+
+  function showInstruction() {
+    if (copySuccessMessage) {
+      return;
+    }
+    setInstructions(`${email}`);
+  }
+
+  function hideInstruction() {
+    setInstructions("");
+  }
 
   return (
     <div className={classes.join(" ")}>
@@ -19,9 +47,16 @@ const Topbar = ({ menuOpen, setMenuOpen }) => {
               <a href="https://github.com/allinh1">allinh1</a>{" "}
             </span>
           </div>
+
           <div className={styles.itemContainer}>
-            <MailIcon className={styles.icon} />
-            <span>test@test.com</span>
+            <MailIcon
+              className={styles.icon}
+              onClick={copyEmail}
+              onMouseOver={showInstruction}
+              onMouseOut={hideInstruction}
+            />
+            {copySuccessMessage} {instructions}
+            <span></span>
           </div>
         </div>
 
