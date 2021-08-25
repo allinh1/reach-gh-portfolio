@@ -22,6 +22,10 @@
   align-items: center;
   margin: auto;
 
+  @include mobile {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
   &_html{
     color: #dd4b26;
   }
@@ -49,9 +53,7 @@
   &_bootstrap {
     color: blue
   }
-  @include mobile {
-    grid-template-columns: repeat(3, 1fr);
-  }
+
 
   .circle {
     display: flex;

@@ -33,8 +33,7 @@ const Intro = () => {
           <h2> </h2>
           <h1> Allen Nguyen</h1>
           <h3>
-            Physio / 
-            <span>Aspiring</span> 
+            Physiotherapist / 
             Junior 
             <span ref={textRef}></span>
           </h3>
