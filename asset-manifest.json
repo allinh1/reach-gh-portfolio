@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/reach-gh-portfolio/static/css/main.a145cd23.chunk.css",
-    "main.js": "/reach-gh-portfolio/static/js/main.42a57821.chunk.js",
-    "main.js.map": "/reach-gh-portfolio/static/js/main.42a57821.chunk.js.map",
+    "main.css": "/reach-gh-portfolio/static/css/main.67de7fe8.chunk.css",
+    "main.js": "/reach-gh-portfolio/static/js/main.0cfee293.chunk.js",
+    "main.js.map": "/reach-gh-portfolio/static/js/main.0cfee293.chunk.js.map",
     "runtime-main.js": "/reach-gh-portfolio/static/js/runtime-main.50c587d7.js",
     "runtime-main.js.map": "/reach-gh-portfolio/static/js/runtime-main.50c587d7.js.map",
     "static/js/2.c2be3e63.chunk.js": "/reach-gh-portfolio/static/js/2.c2be3e63.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.7bc531e9.chunk.js": "/reach-gh-portfolio/static/js/3.7bc531e9.chunk.js",
     "static/js/3.7bc531e9.chunk.js.map": "/reach-gh-portfolio/static/js/3.7bc531e9.chunk.js.map",
     "index.html": "/reach-gh-portfolio/index.html",
-    "static/css/main.a145cd23.chunk.css.map": "/reach-gh-portfolio/static/css/main.a145cd23.chunk.css.map",
+    "static/css/main.67de7fe8.chunk.css.map": "/reach-gh-portfolio/static/css/main.67de7fe8.chunk.css.map",
     "static/js/2.c2be3e63.chunk.js.LICENSE.txt": "/reach-gh-portfolio/static/js/2.c2be3e63.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.50c587d7.js",
     "static/js/2.c2be3e63.chunk.js",
-    "static/css/main.a145cd23.chunk.css",
-    "static/js/main.42a57821.chunk.js"
+    "static/css/main.67de7fe8.chunk.css",
+    "static/js/main.0cfee293.chunk.js"
   ]
 }
