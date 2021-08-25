@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/reach-gh-portfolio/static/css/main.a145cd23.chunk.css",
-    "main.js": "/reach-gh-portfolio/static/js/main.eace11ff.chunk.js",
-    "main.js.map": "/reach-gh-portfolio/static/js/main.eace11ff.chunk.js.map",
+    "main.js": "/reach-gh-portfolio/static/js/main.42a57821.chunk.js",
+    "main.js.map": "/reach-gh-portfolio/static/js/main.42a57821.chunk.js.map",
     "runtime-main.js": "/reach-gh-portfolio/static/js/runtime-main.50c587d7.js",
     "runtime-main.js.map": "/reach-gh-portfolio/static/js/runtime-main.50c587d7.js.map",
     "static/js/2.c2be3e63.chunk.js": "/reach-gh-portfolio/static/js/2.c2be3e63.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.50c587d7.js",
     "static/js/2.c2be3e63.chunk.js",
     "static/css/main.a145cd23.chunk.css",
-    "static/js/main.eace11ff.chunk.js"
+    "static/js/main.42a57821.chunk.js"
   ]
 }
