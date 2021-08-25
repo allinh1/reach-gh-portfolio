@@ -30,13 +30,15 @@ const Intro = () => {
 
       <div className={styles.right}>
         <div className={styles.wrapper}>
-          <h2> "&lt &#60" </h2>
+          <h2> </h2>
           <h1> Allen Nguyen</h1>
           <h3>
-            {" "}
-            Aspiring Junior
+            Physio / 
+            <span>Aspiring</span> 
+            Junior 
             <span ref={textRef}></span>
           </h3>
+
         </div>
         <a href="#portfolio">
           <ExpandMoreIcon style={{ fontSize: 100 }} />

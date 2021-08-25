@@ -20,27 +20,27 @@ const Skills = () => {
 
       <div className={styles.tech}>
         <div className={styles.circle}>
-          <FontAwesomeIcon icon={faHtml5} />
+          <FontAwesomeIcon icon={faHtml5} className={styles.tech_html} />
           <div>Html</div>
         </div>
         <div className={styles.circle}>
-          <FontAwesomeIcon icon={faCss3} />
+          <FontAwesomeIcon icon={faCss3} className={styles.tech_css}/>
           <div>css</div>
         </div>
         <div className={styles.circle}>
-          <FontAwesomeIcon icon={faSass} />
+          <FontAwesomeIcon icon={faSass} className={styles.tech_sass}/>
           <div>sass</div>
         </div>
-        <div className={styles.circle}>
+        <div className={styles.circle} >
           <FontAwesomeIcon icon={faJs} />
           <div>JavaScript</div>
         </div>
         <div className={styles.circle}>
-          <FontAwesomeIcon icon={faGithub} />
+          <FontAwesomeIcon icon={faGithub} className={styles.tech_git}/>
           <div>Git</div>
         </div>
         <div className={styles.circle}>
-          <FontAwesomeIcon icon={faReact} />
+          <FontAwesomeIcon icon={faReact} className={styles.tech_react}/>
           <div>React</div>
         </div>
         <div className={styles.circle}>
@@ -48,11 +48,11 @@ const Skills = () => {
           <div>Firebase</div>
         </div>
         <div className={styles.circle}>
-          <FontAwesomeIcon icon={faBootstrap} />
+          <FontAwesomeIcon icon={faBootstrap} className={styles.tech_bootstrap}/>
           <div>Bootstrap</div>
         </div>
         <div className={styles.circle}>
-          <FontAwesomeIcon icon={faLeaf} />
+          <FontAwesomeIcon icon={faLeaf} className={styles.tech_spring}/>
           <div>Spring</div>
         </div>
         <div className={styles.circle}>

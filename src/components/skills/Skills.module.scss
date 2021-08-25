@@ -22,6 +22,33 @@
   align-items: center;
   margin: auto;
 
+  &_html{
+    color: #dd4b26;
+  }
+
+  &_css{
+    color: #5e92c4;
+  }
+
+  &_sass{
+    color: #cd679a;
+  }
+
+  &_react{
+    color: #5ed3f3;
+  }
+
+  &_git{
+    color: #eb4c38;
+  }
+
+  &_spring {
+    color: rgb(16, 199, 16)
+  }
+
+  &_bootstrap {
+    color: blue
+  }
   @include mobile {
     grid-template-columns: repeat(3, 1fr);
   }

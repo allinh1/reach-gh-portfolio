@@ -58,9 +58,17 @@
       h3 {
         font-size: 20px;
 
+
+        // &strikeout {
+
+        // }
+        
+
         @include mobile {
           font-size: 20px;
         }
+
+
 
         span {
           font-size: inherit;
